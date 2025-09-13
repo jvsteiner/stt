@@ -18,10 +18,24 @@ A macOS command-line utility for speech-to-text transcription with speaker diari
 
 ## Installation
 
+### Homebrew (Recommended)
+
+The easiest way to install STT is using Homebrew:
+
+```bash
+# Add the tap
+brew tap jvsteiner/tap
+
+# Install STT
+brew install stt
+```
+
+That's it! The `stt` command will be available in your terminal.
+
 ### Build from Source
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jvsteiner/stt.git
 cd stt
 swift build -c release
 ```
@@ -33,6 +47,14 @@ The compiled binary will be available at `.build/release/stt`
 ```bash
 # Copy to a directory in your PATH
 cp .build/release/stt /usr/local/bin/stt
+```
+
+### Uninstallation
+
+If you installed via Homebrew:
+```bash
+brew uninstall stt
+brew untap jvsteiner/tap
 ```
 
 ## Usage
