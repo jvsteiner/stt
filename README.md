@@ -1,6 +1,6 @@
 # STT - Speech-to-Text with Speaker Diarization
 
-A macOS command-line utility for speech-to-text transcription with speaker diarization using the Parakeet v3 model from FluidAudio.
+A macOS command-line utility wrapping the FluidAudio library providing speech-to-text transcription with speaker diarization using the Parakeet v3 model.
 
 ## Features
 
